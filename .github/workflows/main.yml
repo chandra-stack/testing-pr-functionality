@@ -3,6 +3,8 @@ name: Testing DOtnet environment
 on: 
   pull_request:
     branches: ['sprint**','release/**']
+  push:
+    branches: ['sprint**','release/**']
     
 
 jobs:
