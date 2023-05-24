@@ -1,8 +1,6 @@
 name: Testing DOtnet environment 
 
-on: 
-  pull_request:
-    branches: ['sprint**','release/**']
+on:
   push:
     branches: ['sprint**','release/**']
     
